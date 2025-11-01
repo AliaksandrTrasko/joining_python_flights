@@ -38,7 +38,7 @@ This analysis was conducted entirely in Python using the following key libraries
 Key skills demonstrated include data merging/joining, grouping & aggregation, handling missing data, logical filtering, and exploratory data analysis (EDA).
 
 
-## 📊 Dataset
+## Dataset
 
 This project uses the **`nycflights13`** dataset, which contains detailed information on all 336,776 flights that departed from New York City (EWR, JFK, LGA) in 2013. The data is comprised of five related tables:
 * `flights`
@@ -47,28 +47,35 @@ This project uses the **`nycflights13`** dataset, which contains detailed inform
 * `airports`
 * `airlines`
 
-## ⚙️ How to Run This Project
 
-To explore the analysis on your local machine:
+## Key Insights
+- Of the 3,322 aircraft in the registry, 998 of them have never flown, which is 30%. 
+- The highest average age of aircraft in the company - 35 years (as for 2013) in Envoy Air with 769 flights.
+- Several aircraft were used by several airlines.
+
+
+## How to Run This Project
 
 1.  Clone the repository:
     ```bash
     git clone [https://github.com/AliaksandrTrasko/joining_python_flights.git](https://github.com/AliaksandrTrasko/joining_python_flights.git)
     ```
+
 2.  Navigate to the project directory:
     ```bash
     cd joining_python_flights
     ```
+
 3.  (Recommended) Create and activate a virtual environment:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    source venv\Scripts\activate  # On MacOS: venv/bin/activate
     ```
+
 4.  Install the required libraries:
     ```bash
     pip install pandas matplotlib seaborn jupyterlab
     ```
-    *(Примечание: вам стоит создать файл `requirements.txt` для своего проекта, но эта команда установит все необходимое)*
 
 5.  Launch Jupyter Lab:
     ```bash
